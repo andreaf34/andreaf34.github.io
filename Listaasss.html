@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas</title>
+	
+<style type="text/css">
+header {
+    height: 200px;
+    margin: 0 auto;
+    background-color: #416525;
+}
+nav  {
+    height: auto;
+    background-color: #71A04D;
+}
+main {
+    background-color: #D35095;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    height: 80px;
+    background-color: #71A04D;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+	
+main section {
+    width: 900px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #DA90B7;
+}
+header h1 {
+    height: 100px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #DA90B7;
+    font-size: 30px;
+}
+footer h6 {
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #B43C7B;
+    font-size: 24px;
+}
+main section ol , main section ul{
+    padding: 20px;
+}
+#box_u {
+    background-color: #B2CF9C;
+    color: #4A6932;
+}
+.box_a {
+    background-color: #EAACCD;
+    color: #872157;
+    text-align: justify;
+}
+.box_b {
+    background-color: #EED7B8;
+    color: #C2832D;
+    text-align: justify;
+}
+body h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+}
+#box_u #lista_uno li {
+    list-style-type: lower-alpha;
+}
+.box_a #lista_dos li {
+    list-style-type: decimal;
+    text-align: left;
+}
+.box_a #sublista_uno li {
+    list-style-type: lower-alpha;
+}
+#lista_tres li {
+    list-style-image: url(nube.png);
+}
+.box_b #lista_tres li {
+    list-style-image: url(nube.png);
+}
+#navegacion {
+    color: #FFFFFF;
+    opacity: 1;
+}
+#navegacion li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 15px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    font-style: oblique;
+    text-transform: none;
+    font-weight: bold;
+    background-color: #B6F4A1;
+    border-radius: 20px;
+    border: 1px solid #36712A;
+}
+#lista_dos {
+}
+#lista_dos {
+}
+#menu {
+}
+#tablas {
+}
+#enlaces {
+}
+	#navegacion li a:link{
+    color: #22B954;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+	}
+#navegacion li a:hover {
+    color: #F19BE3;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: #308711;
+    font-size: 20px;
+}
+</style>
+<link href="style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header>
+	  <h1 style="color: ##456125">-LISTAS EN HTML-</h1>
+	</header>
+	<nav>
+		<ul>
+	<li><a href="../formatos de texto.html">Formatos de Textos</a></li>
+	<li><a href="../Listaasss.html">Listas</a></li>
+	<li><a href="../tablas.html">Tablas</a></li>
+	<li><a href="enlaces 2.html">Enlaces</a></li>
+	<li><a href="imagenes.html">Imágenes</a></li>
+	<li><a href="audi.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="Formularios.html">Formularios</a></li>
+	</ul>
+	</nav>
+	<main>
+		<section class="box_a">
+		  <h2 style="color: white">Listas sin ordenar o desordenadas</h2>
+		  <p>Etiam olor sit amet, consectetur adipiscing elit. Quisque ac facilisis risus. Vivamus nisl ex, faucibus eu rhoncus a, scelerisque tempus risus. Aenean fermentum quam nec nibh lobortis volutpat. Etiam nec commodo odio. Etiam ante felis, ultrices nec sapien vel, facilisis malesuada enim. Aliquam porttitor vulputate neque in vestibulum. Integer a diam ut leo bibendum convallis at quis nibh. Aenean hendrerit nisi in ipsum sagittis lobortis sed et orci. Curabitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac facilisis risus. Vivamus nisl ex, faucibus eu rhoncus a, scelerisque tempus risus. Aenean fermentum quam nec nibh lobortis volutpat. Etiam nec commodo odio. Etiam ante felis, ultrices nec sapien vel, facilisis malesuada enim. </p>
+	      <ul> 
+			 <li>Puebla</li> 
+	      <li>Tlaxcala</li>
+	      <li>Guerrero</li>
+	      <li>Veracruz</li>
+	      <li>CDMX</li>
+		  </ul>
+    </section>
+	<section class="box_b">
+	  <h2 style="color:white">Listas ordenadas</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus sit amet mi in tempor. Proin gravida commodo imperdiet. Praesent nulla massa, bibendum a ornare at, volutpat id tellus. Ut in condimentum nisi. Pellentesque in justo pretium, ultrices velit vitae, congue eros. Maecenas eget erat non sem molestie viverra. Nulla.Lorem psum dolor sit amet, consectetur adipiscing elit. Nulla vel urna blandit, varius urna volutpat, dictum enim. Phasellus vitae pulvinar urna. Aenean turpis orci, egestas sit amet varius quis, hendrerit id lectus. Praesent auctor pulvinar viverra. Nulla enim risus, vehicula ac dolor eu, efficitur pretium orci. Duis vulputate malesuada ante, vel varius elit iaculis eu. Curabitur vitae laoreet odio, sit amet tincidunt justo. Nullam eget ligula in urna sagittis feugiat quis eget libero.</p>
+		<ol>
+		<li>Zacatecas</li>
+		<li>Colima</li>
+		<li>Puebla</li>
+		<li>Tabasco</li>
+		<li>Aguascalientes</li>
+		</ol>
+</section>
+<main> 
+<section class="box_a">
+	<h2 style="color: white">Listas mixtas</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in diam lectus. Integer vel mauris cursus, condimentum magna id, tincidunt nibh. Donec ut nulla molestie, ullamcorper arcu ut, venenatis urna. Aliquam erat volutpat. Suspendisse finibus diam id ante ultrices scelerisque. Praesent lobortis vehicula nunc, quis fermentum justo aliquet quis. Donec erat velit, congue at congue eu, consectetur eu diam. Cras.</p>
+	<ol>
+		<li>Aguascalientes</li>
+		<li>Colima</li>
+		<li>Puebla
+		<ul>
+			<li>Acajete</li>
+			<li>Atlixco</li>
+			<li>Cholula</li>
+			<li>Tepeaca</li>
+			<li>Chachapa</li>
+			<li>Puebla</li>
+			<ul>
+				<li>San Manuel</li>
+				<li>San Bartolo</li>
+				<li>Tres cruces</li>
+				<li>Bugambilias</li>
+			</ul>
+			</ul>
+		</li>
+		<li>Veracruz</li>
+		<li>Zacatecas</li>
+		</ol>
+  </section>
+	<section class="box_b">
+	  <h2>Listas con imagen</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quasi explicabo ipsam! Dolorem provident aliquid numquam vitae! Sed natus unde nihil culpa animi iusto nisi maxime id quasi nam odio voluptate delectus voluptates, facere quod quae eius commodi sint repudiandae excepturi, ad laboriosam, suscipit odit vero! Veritatis sequi quidem tenetur.</p>
+		<ul id="lista_tres"> 
+        <li>Lista con imagen</li>
+		<li>Lista con imagen</li>
+		<li>Lista con imagen</li>
+		<li>Lista con imagen</li>
+		<li>Lista con imagen</li>
+		</ul>
+	</section>
+  <section class="box_a">
+    <h2>Listas...</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quasi explicabo ipsam! Dolorem provident aliquid numquam vitae! Sed natus unde nihil culpa animi iusto nisi maxime id quasi nam odio voluptate delectus voluptates, facere quod quae eius commodi sint repudiandae excepturi, ad laboriosam, suscipit odit vero! Veritatis sequi quidem tenetur.</p>
+	  <ul class="box_a" id="lista_dos"> 
+    <li class="box_a" id="lista_dos">Elementos de la lista 2</li>
+	<li>Elementos de la lista 2</li>
+	<ul class="box_a" id="sublista_uno"> 
+	      <li>Sub elemento de la lista</li>
+	      <li>Sub elemento de la lista</li>
+	      <li>Sub elemento de la lista</li>
+	</ul>
+    	</ul>
+	  <ul class="box_a" id="lista_dos"> 
+	  <li>Elementos de la lista 2</li>
+	  <li>Elementos de la lista 2</li>
+	  <li>Elementos de la lista 2</li>
+	</ul>
+  </section>
+  <section id="box_u">
+	  <h2>Listas...</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quasi explicabo ipsam! Dolorem provident aliquid numquam vitae! Sed natus unde nihil culpa animi iusto nisi maxime id quasi nam odio voluptate delectus voluptates, facere quod quae eius commodi sint repudiandae excepturi, ad laboriosam, suscipit odit vero! Veritatis sequi quidem tenetur.</p>
+	  <ul>
+    <li>Elementos de la lista</li>
+    <li>Elementos de la lista</li>
+    <li>Elementos de la lista</li>
+    <li>Elementos de la lista</li>
+    <li>Elementos de la lista</li>
+	</ul>
+  </section>
+</main>
+	<footer>
+	  <h6 style="color: #DA90B7">Elaborado por Andrea Franco</h6>
+</footer>
+</body>
+</html>

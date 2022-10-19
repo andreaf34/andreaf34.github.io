@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+	<h1>Formularios HTML</h1>
+</header>
+<nav>
+	<ul>
+	<li><a href="../formatos de texto.html">Formatos de Textos</a></li>
+	<li><a href="../Listaasss.html">Listas</a></li>
+	<li><a href="../tablas.html">Tablas</a></li>
+	<li><a href="enlaces 2.html">Enlaces</a></li>
+	<li><a href="imagenes.html">Imágenes</a></li>
+	<li><a href="audi.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="Formularios.html">Formularios</a></li>
+	</ul>
+</nav>
+<main>
+  <section>
+		<h2>Formulario 1</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus consequuntur, aut animi hic nihil iste accusantium sit harum, adipisci dignissimos voluptatibus dolorum alias, quibusdam. In, unde minima quis eum.</p>
+	<form id="form1" name="form1" method="get">
+	  <label for="Nombre">Nombre:</label>
+	  <input type="text" name="Nombre" id="Nombre">
+	  <label for="Apellido">Apellido:</label>
+	  <input type="text" name="Apellido" id="Apellido">
+	  <input type="submit" name="submit" id="submit" value="Enviar">
+	  &nbsp;
+	</form>
+  </section>
+<section>
+  <h2>Formulario por radiobuttom</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus consequuntur, aut animi hic nihil iste accusantium sit harum, adipisci dignissimos voluptatibus dolorum alias, quibusdam. In, unde minima quis eum.</p>
+<form action="Procesamiento.html" method="post" name="form2" id="form2">
+  <label>Elige tu genero</label>
+  <table width="200" class="celda_centrada tabla_centrada">
+    <tr>
+      <td><label>
+        <input type="radio" name="Genero" value="Femenino" id="Genero_0">
+        Femenino</label></td>
+    </tr>
+    <tr>
+      <td><label>
+        <input type="radio" name="Genero" value="Masculino" id="Genero_1">
+        Masculino</label></td>
+    </tr>
+  </table><br>
+  <label for="País">¿De qué país nos visitas?</label>
+  <select name="País" id="País">
+    <option value="MX">México</option>
+    <option value="Es">España</option>
+    <option value="Ar">Argentina</option>
+    <option value="It">Italia</option>
+    <option value="USA">Estados Unidos</option>
+  </select><br><br>
+  <label>¿Dondé residiras durante tu estancia en el país?</label>
+  <p>
+    <label>
+      <input type="checkbox" name="residencia_temporal" value="domicilio_particular" id="residencia_temporal_0">
+      Casa de un amigo</label>
+    <br>
+    <label>
+      <input type="checkbox" name="residencia_temporal" value="hotel" id="residencia_temporal_1">
+      Hotel</label>
+    <br>
+    <label>
+      <input type="checkbox" name="residencia_temporal" value="airbnb" id="residencia_temporal_2">
+      Airbnb</label>
+    <br>
+  </p>
+<h5>
+  <input type="submit" name="Botón 2" id="Botón 2" value="Enviar">
+</h5>
+  <table width="200">
+    <tr> </tr>
+</table>
+</form>
+</section>
+<section>
+  <h2>Formularios con input diferentes (5)</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus consequuntur, aut animi hic nihil iste accusantium sit harum, adipisci dignissimos voluptatibus dolorum alias, quibusdam. In, unde minima quis eum.</p>
+  <form id="form4" name="form4" method="post">
+    
+    <label for="email">Correo electrónico:</label>
+    <input type="email" name="email" id="email">
+    <label for="password2">Contraseña:</label>
+    <input type="password" name="password" id="password">
+    <br>
+    <br>
+    <label for="datemin">Reporte inicio:</label>
+    <input type="date" id="datemin" name="datemin" min="2000-01-02">
+    <br>
+    <br>
+    <label for="datemax">Reporte fin:</label>
+    <input type="date" id="datemax" name="datemax" max="1979-12-31">
+    <br>
+    <br>
+    <label for="telefono">Número de télefono:</label>
+    <input type="telefono" id="telefono" name="telefono">
+    <br>
+    <br>
+    <label for="recargas">Resultados:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="9">
+    <br>
+    <br>
+    <label for="myfile">Comprobante:</label>
+    <input type="file" id="myfile" name="myfile">
+    <br>
+    <br>
+    <input name="submit2" type="submit" id="submit2" formaction="Procesamiento.html" formmethod="POST" value="Enviar">
+    <br>
+    <br>
+    <input type="reset" name="reset" id="reset" value="Restablecer">
+  </form>
+</section>
+<section>
+  <h2>Formulario de contacto</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus consequuntur, aut animi hic nihil iste accusantium sit harum, adipisci dignissimos voluptatibus dolorum alias, quibusdam. In, unde minima quis eum.</p>
+  <form action="Procesamiento.html" method="get" name="form3" id="form3">
+    <label for="email">Correo electrónico:</label>
+    <input type="email" name="email" id="email"><br<br><br>
+    <label for="textarea">Comentario:</label>
+    <textarea name="textarea" maxlength="200" id="textarea">Escribe aquí tu mensaje...</textarea><br><br>
+    <input name="submit3" type="submit" class="submit3" value="Enviar">
+    &nbsp;
+  </form>
+</section>
+  </main>
+<footer>Elaborado por Andrea Franco</footer>
+</body>
+</html>
